@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "rulesDirectory": [
+    "node_modules/tslint-origin-ordered-imports-rule/dist"
+  ],
+  "jsRules": {
+  },
+  "rules": {
+    "class-name": true,
+    "no-eval": true,
+    "no-unused-variable": true,
+    "no-internal-module": true,
+    "no-unsafe-finally": true,
+    "no-var-keyword": true,
+    "triple-equals": true,
+    "newline-before-return": true,
+    "variable-name": {
+      "options": [
+        "ban-keywords"
+      ]
+    },
+    "no-duplicate-imports": true,
+    "origin-ordered-imports": [
+      true,
+      "at-least-one-blank-line"
+    ]
+  }
+}

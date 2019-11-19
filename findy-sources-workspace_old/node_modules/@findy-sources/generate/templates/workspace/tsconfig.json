@@ -1,0 +1,13 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "lib":["es2017", "dom", "es2017.object"],
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "importHelpers": true
+  },
+  "include": [
+    "./src"
+  ]
+}
